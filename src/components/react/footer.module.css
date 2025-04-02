@@ -1,0 +1,28 @@
+.a {
+  color: black;
+  &:visited {
+    color: black;
+  }
+
+  &:hover {
+    color: brown;
+  }
+
+  &:active {
+    color: brown;
+  }
+}
+
+.footer {
+  font-size: 14px;
+}
+
+.hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
+}

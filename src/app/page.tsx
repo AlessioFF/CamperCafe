@@ -2,8 +2,6 @@ import { Article } from "@/components/react/Article";
 import { Section } from "@/components/react/Section";
 
 export default function Home() {
-  // TODO: Fix deserts
-
   return (
     <main>
       <h1 style={{ fontFamily: "Impact, serif" }}>CAMPER CAFE</h1>
@@ -29,11 +27,10 @@ export default function Home() {
           src: "https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg",
         }}
       >
-        <Article flavor="French Vanilla" price="3.00" />
-        <Article flavor="Carael Macchiato" price="3.75" />
-        <Article flavor="Pumpkin Spice" price="3.50" />
-        <Article flavor="Hazelnut" price="4.00" />
-        <Article flavor="Mocha" price="4.50" />
+        <Article flavor="Donut" price="1.50" />
+        <Article flavor="Cherry Pie" price="2.75" />
+        <Article flavor="Cheesecake" price="3.00" />
+        <Article flavor="Cinnamon Roll" price="2.50" />
       </Section>
     </main>
   );
